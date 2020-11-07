@@ -2,10 +2,10 @@
   "name": "Pancakes and Scrambled Eggs",
   "categories": [
     {
-      "pancakes": "files/pancakes.json"
+      "pancakes": "files/pancakes_and_scrambled_eggs/pancakes.json"
     },
     {
-      "scrambled eggs": "files/scrambled_eggs.json"
+      "scrambled eggs": "files/pancakes_and_scrambled_eggs/scrambled_eggs.json"
     }
   ],
   "image": "https://www.notion.so/ebosetale/Pancakes-and-Scrambled-Eggs-2830afd4f4ed49d09259927a470fa02a#df2c92a079f84caeb45d5f7ebba9fc8e"
