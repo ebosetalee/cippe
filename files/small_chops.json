@@ -2,16 +2,16 @@
   "name": "Small Chops",
   "categories": [
     {
-      "spring roll": "files/spring_roll.json"
+      "spring roll": "files/small_chops/spring_roll.json"
     },
     {
-      "samosa": "files/samosa.json"
+      "samosa": "files/small_chops/samosa.json"
     },
     {
-      "puff puff": "files/puff_puff.json"
+      "puff puff": "files/small_chops/puff_puff.json"
     },
     {
-      "mosa": "files/mosa.json"
+      "mosa": "files/small_chops/mosa.json"
     }
   ],
   "bottom image": "https://miro.medium.com/max/1079/1*ZSbWn7G0xQhQagcEzh424Q.jpeg"
