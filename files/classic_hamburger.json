@@ -1,0 +1,130 @@
+{
+  "name": "Classic HamBurger",
+  "description": "The Best Classic Burger Recipe – Perfectly seasoned juicy homemade hamburgers. This easy recipe only needs a few ingredients.",
+  "top image": "https://www.notion.so/ebosetale/Classic-HamBurger-5dda6a0685724015a80db77cb96ebf81#8c87eb3c7256455ebe8e1457f59e02c7",
+  "ingredients": [
+    {
+      "name": "Beef or Chuck",
+      "quantity": 1.5,
+      "type": "grounded",
+      "requirement": "80% lean and 20% fat"
+    },
+    {
+      "name": "Worcestershire",
+      "quantity": "2Tbs",
+      "requirement": "Optional"
+    },
+    {
+      "name": "Salt",
+      "quantity": "1 1/2Tsp"
+    },
+    {
+      "name": "Egg",
+      "quantity": 1
+    },
+    {
+      "name": "Garlic",
+      "quantity": "1tsp",
+      "type": "grounded"
+    },
+    {
+      "name": "Black pepper",
+      "quantity": "1/2tsp",
+      "type": "grounded"
+    },
+    {
+      "name": "Cheese",
+      "type": "slices",
+      "quantity": 4,
+      "requirement": "Optional"
+    },
+    {
+      "name": "Hamburger buns",
+      "quantity": 4
+    },
+    {
+      "optional toppings": [
+        "2-4 lettuce leaves",
+        "tomato",
+        "onion",
+        "pickles",
+        "ketchup",
+        "mustard",
+        "mayonnaise etc"
+      ]
+    }
+  ],
+  "steps": [
+    "Preheat the grill to 375 degrees F (medium-high)",
+    {
+      "action": "In a large bowl, add the beef. Sprinkle evenly with the Worcestershire sauce or sauce of choice, seasoning salt, garlic powder, egg and pepper. Use your hands to mix the ingredients until they are just combined.",
+      "image": "https://www.notion.so/ebosetale/Classic-HamBurger-5dda6a0685724015a80db77cb96ebf81#b903d910d2584099b6fe4d783f0e3225"
+    },
+    {
+      "action": "Divide the meat mixture into fourths. Take 1/4 of the meat mixture and use your hands to press it into the shape of a hamburger patty that is about 3/4 inch thick. Make an indention in the middle of the patty with your thumb to prevent bulging in the center of the hamburger as it cooks. Repeat with the remaining meat mixture, making 4 hamburgers.",
+      "image1": "https://www.notion.so/ebosetale/Classic-HamBurger-5dda6a0685724015a80db77cb96ebf81#054fce3f7083481eb8fada8272451a11",
+      "image2": "https://www.notion.so/ebosetale/Classic-HamBurger-5dda6a0685724015a80db77cb96ebf81#70db0e88e40e4c02a6e18afe7c4a7c26"
+    },
+    "Place the burgers on the grill. Cook 4-5 minutes on the first side. Flip the burgers over and cook an additional 4-5 minutes, until the burgers have reached the desired doneness.*",
+    "If adding cheese, lay a slice of cheese on each burger patty about 1 minute before taking the burgers off the grill, so the cheese has a chance to melt.",
+    "Serve the burgers on hamburger buns with optional hamburger toppings."
+  ],
+  "notes": [
+    "Cook for 4 minutes on each side for medium-well burgers."
+  ],
+  "nutrition": [
+    {
+      "name": "Calories",
+      "quantity": "558kcal"
+    },
+    {
+      "name": "Carbohydrates",
+      "quantity": "23g"
+    },
+    {
+      "name": "Protein",
+      "quantity": "33g"
+    },
+    {
+      "name": "Fat",
+      "quantity": "35g"
+    },
+    {
+      "name": "Saturated Fat",
+      "quantity": "35g"
+    },
+    {
+      "name": "Cholesterol",
+      "quantity": "120mg"
+    },
+    {
+      "name": "Sodium",
+      "quantity": "1533mg"
+    },
+    {
+      "name": "Potassium",
+      "quantity": "556mg"
+    },
+    {
+      "name": "Fiber",
+      "quantity": "1g"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "3g"
+    },
+    {
+      "name": "Vitamin",
+      "quantity": "1.1mg"
+    },
+    {
+      "name": "Calcium",
+      "quantity": "110mg"
+    },
+    {
+      "name": "Iron",
+      "quantity": "5mg"
+    }
+  ],
+  "bottom image": "https://www.notion.so/ebosetale/Classic-HamBurger-5dda6a0685724015a80db77cb96ebf81#6d4056a8c9034c319eadd468859fdd05"
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Puff Puff",
+  "description": "Puff puff is a deep-fried dough. They are made from yeast dough, shaped into balls and deep-fried until golden brown. It has a doughnut-like texture but slightly more chewy. It is a very common snack eaten by so many countries but with different names and a little bit of variation in the mode of preparation.",
+  "top image": "https://www.notion.so/ebosetale/Puff-puff-4da85a2651e24bec98f42e1702404323#bf82fefb352f44de890c09c257c8cc37",
+  "ingredients": [
+    {
+      "name": "Flour",
+      "type": "Plain",
+      "quantity": "2 cups"
+    },
+    {
+      "name": "Water",
+      "quantity": "1 1/4cups"
+    },
+    {
+      "name": "Yeast",
+      "quantity": "2Tsp"
+    },
+    {
+      "name": "Nutmeg",
+      "quantity": "1 tsp",
+      "requirement": "Optional"
+    },
+    {
+      "name": "Salt",
+      "quantity": "1/2 tsp"
+    },
+    {
+      "name": "Sugar",
+      "quantity": [
+        "1/4 Cup",
+        "1tsp for proofing of yeast"
+      ]
+    },
+    {
+      "name": "vegetable oil",
+      "quantity": "enough for deep frying"
+    }
+  ],
+  "steps": [
+    "Mix half of a cup of warm water, 1 teaspoon of sugar and the yeast in a bowl. Cover with a lid and set aside until the yeast becomes bubbly. About 4-6 minutes.",
+    "In another bowl, mix the dry ingredients - Flour, Sugar, Salt, and Nutmeg.",
+    "Pour the proofed yeast and the remainng one cup water together with the dry ingredients and mix until the batter is lump-free.",
+    "Cover the dough and allow it to rise for 1 hour. (The risen dough has a distinct sweet smell, which will make you know the dough is ready for frying)",
+    "Preheat the oil in a pan deep and wide enough to accomodate the puff puff balls (about 360°F ) and scoop a little bit of dough and drop the batter by spoonfuls into the oil.",
+    "Fry both sides until golden brown. If you are finding it hard to turn the puff puff while frying you can just press down the balls a little bit with your frying spoon before turning it.",
+    "Remove from heat. Drain on a paper towel and enjoy while still hot or warm."
+  ],
+  "notes": [
+    "Though adding Nutmeg to this recipe is very optional. I really like the subtle flavor it gives the Puff puff so it's advisable you add it.",
+    "The hand works well when mixing the dough but you can use the mixer just don't over mix.You can also use an Ice cream scoop to drop the dough inside the Oil.",
+    "If your oil is too hot the Puff puff will get burnt before its done and if its not hot enough its going to absorb the Oil leaving the Puff puff Greasy and Soggy.",
+    "Try to use a deep fryer or a heavy bottom Pan.",
+    "A non stick Pan works best for me!"
+  ],
+  "nutrition": [
+    {
+      "name": "Calories",
+      "quantity": "138kcal"
+    },
+    {
+      "name": "Carbohydrates",
+      "quantity": "21g"
+    },
+    {
+      "name": "Protein",
+      "quantity": "3g"
+    },
+    {
+      "name": "Fat",
+      "quantity": "5g"
+    },
+    {
+      "name": "Saturated Fat",
+      "quantity": "4g"
+    },
+    {
+      "name": "Sodium",
+      "quantity": "101mg"
+    },
+    {
+      "name": "Potassium",
+      "quantity": "41mg"
+    },
+    {
+      "name": "Fiber",
+      "quantity": "1g"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "4g"
+    },
+    {
+      "name": "Calcium",
+      "quantity": "5mg"
+    },
+    {
+      "name": "Iron",
+      "quantity": "1mg"
+    }
+  ]
+}

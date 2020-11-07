@@ -1,0 +1,25 @@
+
+{
+  "Categories": [
+    {
+      "African Food": {
+        "Ewedu Soup": "files/ewedu_soup.json",
+        "African Salad: Abacha and Ugba": "files/african_salad.json",
+        "Tuwo Shinkafa": "files/tuwo_shinkafa.json"
+      }
+    },
+    {
+      "Western Food": {
+        "Classic Hamburger": "files/classic_hamburger.json",
+        "Pizza": "files/pizza.json",
+        "Pancakes and Scrambled Eggs": "files/pancakes_and_scrambled_eggs.json"
+      }
+    },
+    {
+      "Sides / Finger Food": {
+        "Shawarma": "files/shawarma.json",
+        "Small Chops": "files/small_chops.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "name": "Pizza",
+  "description": "Pizza is a savory dish of **Italian origin** consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. \n\nA small pizza is sometimes called a **pizzetta**. A person who makes pizza is known as a **pizzaiolo**.",
+  "top image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#27cf2ccedbbe48b0882d4cdd97d7f932",
+  "ingredients": [
+    {
+      "pizza dough": [
+        {
+          "description": "Pizza dough is a yeasted dough which requires active dry yeast. Make sure the check the expiration date on the yeast package! Yeast that is too old may be dead and won't work."
+        },
+        {
+          "name": "Bread Flour",
+          "quantity": "3 Cups"
+        },
+        {
+          "name": "Yeast",
+          "quantity": "2Tsp"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "2Tbs"
+        },
+        {
+          "name": "Water",
+          "quantity": "1 1/4 Cups"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": "3Tbs"
+        },
+        {
+          "name": "Salt",
+          "quantity": "1/4Tsp",
+          "requirement": "To taste"
+        }
+      ]
+    },
+    {
+      "pizza sauce": [
+        {
+          "name": "",
+          "quantity": 3,
+          "size": "6 oz"
+        },
+        {
+          "name": "Seasoning",
+          "quantity": "1 1/2Tbsp"
+        },
+        {
+          "name": "Onion",
+          "quantity": "1/2tsp",
+          "type": "grounded"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 2,
+          "type": "minced"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": "1/2Tbs"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": "3Tbs"
+        },
+        {
+          "name": "Water",
+          "quantity": "1 Cup"
+        },
+        {
+          "name": "Brown Sugar or Honey",
+          "quantity": "1/2Tsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": "1/4Tsp",
+          "requirement": "To taste"
+        }
+      ]
+    },
+    {
+      "optional toppings": [
+        {
+          "margherita": [
+            "tomato sauce",
+            "fresh mozzarella cheese, torn into small pieces",
+            "fresh basil leaf"
+          ]
+        },
+        {
+          "tasty's bianca": [
+            "extra virgin olive oil",
+            "fresh mozzarella cheese, torn into small pieces",
+            "ricotta cheese",
+            "fresh basil pesto",
+            "dried oregano"
+          ]
+        },
+        {
+          "pepperoni": [
+            "tomato sauce",
+            "fresh mozzarella cheese, torn into small pieces",
+            "spicy pepperoni slice",
+            "freshly grated parmesan cheese"
+          ]
+        }
+      ]
+    }
+    ],
+  "preparations": [
+    {
+      "making the pizza dough": [
+        {
+          "name": "Proof the yeast",
+          "action": "Place the warm water in the large bowl of a heavy duty stand mixer. Sprinkle the yeast over the warm water and let it sit for 5 minutes until the yeast is dissolved.",
+          "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#c5c5018e0a6348aa86b2dcf1f9d2418e",
+          "action2": "After 5 minutes stir if the yeast hasn't dissolved completely. The yeast should begin to foam or bloom, indicating that the yeast is still active and alive.",
+          "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#e4ffd750329e487380eff8aa034066ec",
+          "note": "if you are using \"instant yeast\" instead of \"active yeast\", no proofing is required. Just add to the flour in the next step."
+        },
+        {
+          "name": "Make and knead the pizza dough",
+          "action": "Add the flour, salt, sugar, and olive oil, and using the mixing paddle attachment, mix on low speed for a minute. Then replace the mixing paddle with the dough hook attachment. \n\nKnead the pizza dough on low to medium speed using the dough hook about 7-10 minutes.\n\nIf you don't have a mixer, you can mix the ingredients together and knead them by hand.\n\nThe dough should be a little sticky, or tacky to the touch. If it's too wet, sprinkle in a little more flour."
+        },
+        {
+          "name": "Let the dough rise",
+          "action": "Spread a thin layer of olive oil over the inside of a large bowl. Place the pizza dough in the bowl and turn it around so that it gets coated with the oil. \n\nAt this point you can choose how long you want the dough to ferment and rise. A slow fermentation (24 hours in the fridge) will result in more complex flavors in the dough. A quick fermentation (1 1/2 hours in a warm place) will allow the dough to rise sufficiently to work with.\n\nCover the dough with plastic wrap or damp kitchen towel.",
+          "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#8d164725469442259000286232b7ea07",
+          "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#1c121cc812cb4f8191aa6c7752d9cf80",
+          "action2": "For a quick rise, place the dough in a warm place (75°F to 85°F) for 1 1/2 hours.\n\nFor a medium rise, place the dough in a regular room temperature place (your kitchen counter will do fine) for 8 hours. For a longer rise, chill the dough in the refrigerator for 24 hours (no more than 48 hours).\n\nThe longer the rise (to a point) the better the flavor the crust will have."
+        }
+      ]
+    },
+    {
+      "make ahead freezing": "After the pizza dough has risen, you can freeze it to use later. Divide the dough in half (or the portion sizes you will be using to make your pizzas). Place on parchment paper or a lightly floured dish and place, uncovered, in the freezer for 15 to 20 minutes. Then remove from the freezer, and place in individual freezer bags, removing as much air as you can from the bags. Return to the freezer and store for up to 3 months.\n\nThaw the pizza dough in the refrigerator overnight or for 5 to 6 hours. Then let the dough sit at room temperature for 30 minutes before stretching it out in the next steps."
+    },
+    {
+      "making the sauce": "Stir together the Tomato paste, Italian seasoning, Onion Powder, Minced Garlic, Black pepper, Olive Oil, Water, Honey or Brown sugar and Salt to taste and set aside."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Preheat pizza stone (or pizza pan or baking sheet)",
+      "action": "Place a pizza stone on a rack in the lower third of your oven. Preheat the oven to 475°F (245°C) for at least 30 minutes, preferably an hour. If you don't have a pizza stone, you can use a pizza pan or a thick baking sheet; you need something that will not warp at high temperatures."
+    },
+    {
+      "name": "Divide the dough into two balls",
+      "action": "Remove the plastic cover from the dough. Dust your hands with flour and push the dough down so it deflates a bit. Divide the dough in half.",
+      "image1": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#0fc70e95b82f491b9768a29a52b98221",
+      "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#cbc8c755dcfa4ba8abf37f623f89839e",
+      "action2": "Form two round balls of dough. Place each in its own bowl, cover with plastic and let sit for 15 minutes (or up to 2 hours)."
+    },
+    {
+      "name": "Prep toppings",
+      "action": "Prepare your desired toppings. Note that you are not going to want to load up each pizza with a lot of toppings as the crust will end up not crisp that way. \n\nAbout a third a cup each of tomato sauce and cheese would be sufficient for one pizza. One to two mushrooms thinly sliced will cover a pizza."
+    },
+    {
+      "name": "Flatten dough ball, and stretch out into a round",
+      "action": "Working one ball of dough at a time, take one ball of dough and flatten it with your hands on a lightly floured work surface. \n\nStarting at the center and working outwards, use your fingertips to press the dough to 1/2-inch thick. Turn and stretch the dough until it will not stretch further.",
+      "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#664e651dd1914e70a9ec21c6f34bb6d9",
+      "action2": "Let the dough relax 5 minutes and then continue to stretch it until it reaches the desired diameter - 10 to 12 inches.\n\nTreat the dough gently!\n\nYou can also hold up the edges of the dough with your fingers, letting the dough hang and stretch, while working around the edges of the dough.\n\nIf a hole appears in your dough, place the dough on a floured surface and push the dough back together to seal the hole.\n\nUse your palm to flatten the edge of the dough where it is thicker. Pinch the edges if you want to form a lip."
+    },
+    {
+      "name": "Brush dough top with olive oil",
+      "action": "Use your fingertips to press down and make dents along the surface of the dough to prevent bubbling. Brush the top of the dough with olive oil (to prevent it from getting soggy from the toppings). Let rest another 10-15 minutes.",
+      "action2": "Repeat with the second ball of dough."
+    },
+    {
+      "name": "Sprinkle pizza peel with corn meal, put flattened dough on top",
+      "action": "Lightly sprinkle your pizza peel (or flat baking sheet) with cornmeal. (The corn meal will act as little ball bearings to help move the pizza from the pizza peel into the oven.)",
+      "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#4453ae63c3bf4f968dd4ba52c1d9172b",
+      "action2": "Transfer one prepared flattened dough to the pizza peel.",
+      "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#48de4b52dcaf4aac97069c9f3cd6029a",
+      "action3": "If the dough has lost its shape in the transfer, lightly shape it to the desired dimensions."
+    },
+    {
+      "name": "Spread with tomato sauce and sprinkle with toppings",
+      "action": "Spoon on the tomato sauce, sprinkle with cheese, and place your desired toppings on the pizza.",
+      "image1": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#223107e5791a4917ab95908ed67bfc1d",
+      "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#b998e7f22ced4a85abdfbba3ba9b3904"
+    },
+    {
+      "name": "Sprinkle cornmeal on pizza stone, slide pizza onto pizza stone in oven",
+      "action": "Sprinkle some cornmeal on the baking stone in the oven (watch your hands, the oven is hot!). Gently shake the peel to see if the dough will easily slide, if not, gently lift up the edges of the pizza and add a bit more cornmeal. \n\nSlide the pizza off of the peel and onto the baking stone in the oven.",
+      "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#95373ba88c6f4ebda3649cd9b1fa79d0"
+    },
+    {
+      "name": "Bake Pizza",
+      "action": "Bake pizza in the 475°F (245°C) oven, one at a time, until the crust is browned and the cheese is golden, about 10-15 minutes. If you want, toward the end of the cooking time you can sprinkle on a little more cheese."
+    }
+  ],
+  "nutrition": [
+    {
+      "name": "Calories",
+      "quantity": "1680kcal"
+    },
+    {
+      "name": "Carbohydrates",
+      "quantity": "332g"
+    },
+    {
+      "name": "Protein",
+      "quantity": "57g"
+    },
+    {
+      "name": "Fat",
+      "quantity": "15g"
+    },
+    {
+      "name": "Saturated Fat",
+      "quantity": "2g"
+    },
+    {
+      "name": "Cholesterol",
+      "quantity": "0mg"
+    },
+    {
+      "name": "Sodium",
+      "quantity": "3273mg"
+    },
+    {
+      "name": "Potassium",
+      "quantity": "2216mg"
+    },
+    {
+      "name": "Fiber",
+      "quantity": "22g"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "37g"
+    },
+    {
+      "name": "Vitamin C",
+      "quantity": "39.1mg"
+    },
+    {
+      "name": "Calcium",
+      "quantity": "220mg"
+    },
+    {
+      "name": "Iron",
+      "quantity": "9.6mg"
+    }
+  ]
+}

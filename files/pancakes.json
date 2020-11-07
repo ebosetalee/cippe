@@ -1,0 +1,125 @@
+{
+  "name": "Pancakes",
+  "description": "A pancake (or hotcake, griddlecake, or flapjack, not to be confused with oat bar flapjacks) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.",
+  "top image": "https://www.notion.so/ebosetale/Pancakes-and-Scrambled-Eggs-2830afd4f4ed49d09259927a470fa02a#133606cec9c9427fb9dee07878fc7142",
+  "ingredients": [
+    {
+      "name": "Flour",
+      "type": "Plain",
+      "quantity": "125g"
+    },
+    {
+      "name": "Eggs",
+      "quantity": 2
+    },
+    {
+      "name": "Milk",
+      "type": [
+        {
+          "name": "Whole",
+          "quantity": "200ml"
+        },
+        {
+          "name": "Evaporated",
+          "quantity": "120ml"
+        },
+        {
+          "name": "Powdered",
+          "quantity": "3tbs"
+        }
+      ]
+    },
+    {
+      "name": "Water",
+      "quantity": "100ml"
+    },
+    {
+      "name": "Margarine or Butter",
+      "type": "melted",
+      "quantity": "2tbs"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "4tbs"
+    },
+    {
+      "name": "Nutmeg",
+      "quantity": "A pinch",
+      "requirement": "Optional"
+    },
+    {
+      "name": "Margarine",
+      "quantity": "1-2 tbs",
+      "requirement": "greasing pan"
+    },
+    {
+      "Optional Toppings": [
+        "Blueberry",
+        "Nutmeg",
+        "honey"
+      ]
+    }
+  ],
+  "notes": [
+    "Baking powder is not necessary in Nigerian pancake but if you want to add it for more fluff, then go ahead and add 1 tablespoonful of baking powder.",
+    "A Large cast iron or nonstick frying pan is essential",
+    "The lighter you make the batter, the thinner the pancakes will turn out.",
+    "If you are in a hurry , use an electric whisk or pour all the ingredients into a blender and blend until smooth."
+  ],
+  "steps": [
+    "Break the eggs into a wide bowl, add the melted butter and sugar; mix together using a whisk or wooden spatula.",
+    "Add salt, nutmeg and milk. Whisk Thoroughly.",
+    "Gradually add the flour and keep on whisking. The mixture would begin to thicken and look lumpy.",
+    "Then, gradually add the water and continue stirring until the pancake batter is smooth and still thick.",
+    "Place a little margarine on a pan *(preferable a non-stick pan)*, spread the heated butter in the pan.",
+    "Using a ladle(*soup spoon*), scoop up some of the pancake batter and pour into the hot pan. Gently tilt the pan, so that the batter can evenly coat the surface of the pan.",
+    "Cook one side of the Pancake for 30 seconds, then flip over and cook the other side. *Serve and Enjoy*!"
+  ],
+  "nutrition": [
+    {
+      "name": "Calories",
+      "quantity": "416kcal"
+    },
+    {
+      "name": "Carbohydrates",
+      "quantity": "40g"
+    },
+    {
+      "name": "Total Fat",
+      "quantity": "19g"
+    },
+    {
+      "name": "Saturated Fat",
+      "quantity": "6g"
+    },
+    {
+      "name": "Trans Fat",
+      "quantity": "3g"
+    },
+    {
+      "name": "Unsaturated Fat",
+      "quantity": "10g"
+    },
+    {
+      "name": "Cholesterol",
+      "quantity": "94mg"
+    },
+    {
+      "name": "Sodium",
+      "quantity": "642mg"
+    },
+    {
+      "name": "Fiber",
+      "quantity": "2g"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "19g"
+    },
+    {
+      "name": "Protein",
+      "quantity": "21g"
+    }
+  ],
+  "bottom image": "https://www.notion.so/ebosetale/Pancakes-and-Scrambled-Eggs-2830afd4f4ed49d09259927a470fa02a#88133a0b21404eec9ef69ece3bf72788"
+}

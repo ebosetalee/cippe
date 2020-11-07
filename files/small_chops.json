@@ -1,0 +1,18 @@
+{
+  "name": "Small Chops",
+  "categories": [
+    {
+      "spring roll": "files/spring_roll.json"
+    },
+    {
+      "samosa": "files/samosa.json"
+    },
+    {
+      "puff puff": "files/puff_puff.json"
+    },
+    {
+      "mosa": "files/mosa.json"
+    }
+  ],
+  "bottom image": "https://miro.medium.com/max/1079/1*ZSbWn7G0xQhQagcEzh424Q.jpeg"
+}

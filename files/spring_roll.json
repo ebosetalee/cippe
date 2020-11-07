@@ -1,0 +1,155 @@
+{
+  "name": "Spring Roll",
+  "description": "Spring Rolls are the vegetarian super light, crispy and tender vegetarian appetizer cousin of the traditional egg roll.",
+  "top image": "https://www.notion.so/ebosetale/Spring-roll-ae18d702c15a465c870abfd373a683e6#84d71a0e775b43b1aae4f2c976c8f91f",
+  "ingredients": [
+    {
+      "spring roll wrappers": [
+        {
+          "name": "Flour",
+          "type": "Plain",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Corn FLour",
+          "quantity": "2Tbs"
+        },
+        {
+          "name": "Water",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "salt",
+          "quantity": "1/4tsp"
+        }
+      ],
+      "spring roll filling": [
+        {
+          "name": "Cooking Oil",
+          "quantity": "1/4 cup"
+        },
+        {
+          "name": "Beef",
+          "quantity": 0.5,
+          "type": "grounded"
+        },
+        {
+          "name": "Cabbage",
+          "quantity": "As required",
+          "type": "sliced thinly"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 2,
+          "type": "minced"
+        },
+        {
+          "name": "carrots",
+          "quantity": 2,
+          "type": "sliced thinly"
+        },
+        {
+          "name": "Seasoning Cube",
+          "quantity": 2
+        },
+        {
+          "name": "Pepper",
+          "quantity": "2Tsp"
+        },
+        {
+          "name": "Curry",
+          "quantity": "2Tsp",
+          "type": "Powder"
+        },
+        {
+          "name": "Flour or Corn Starch",
+          "quantity": "2Tbsp"
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": "1/4 cup",
+          "type": "Low sodium"
+        },
+        {
+          "name": "Spring roll wrappers",
+          "size": "8 inches"
+        },{
+          "name": "Oil",
+          "quantity": "Enough for frying"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "spring roll wrappers": [
+        "Mix the Flour, cornflour, and Salt together in a large bowl.",
+        "Gradually add the water while mixing simultaneously until a soft and viscous batter is formed, now work the batter by lifting it and slamming it on the bowl.",
+        "After doing this for some minutes you will see the dough hold in a rope when you lift it (please see video above for this). At this point, the batter is well done.",
+        "Cover it up and leave it to rest in the fridge until it's really cold or better still leave it overnight.",
+        "The next day the Batter would have hardened up. Now work it a little bit just to be able to hold it in the cup of your hand - Please refer to the video.",
+        "Now preheat your pan on a medium to low heat for about 2 to 4 minutes (the amount of time for heating your pan is dependent on the thickness of your pan) and smear the dough in a fast circular motion on the heated pan.",
+        "After a couple of seconds, the edge of the wrap will start to curl up, carefully lift the wrap by the curled edge to lift the wrap off the pan.",
+        "Place the wraps in a bowl and cover it with a damp towel to prevent it from drying up.",
+        "You can store the wraps in a plastic bag and store in the fridge for a couple of days or freeze for a couple of months."
+      ]
+    },
+    {
+      "spring roll filling": [
+        "Preheat the 2 tablespoons of Oil in the pan and saute the Onion and scallion until it's translucent then add the Chili pepper, black Pepper, Curry powder, garlic, salt to taste and the seasoning cube.",
+        "Add the ground beef and use a wooden spoon or spatula to break it up into tiny pieces then stir-fry until the meat is cooked through then add the shredded cabbage, carrots and soy sauc and turn off the heat to prevent the vegetables from turning soggy and leave it to cool before using it.",
+        "Mix the flour or corn starch with two tablespoons of water.",
+        "Lay out the spring roll wrapper, brush cornstarch slurry around the edges to moisten and add about 2 tablespoons of filling in a long rectangle shape, folding in from the sides and rolling the wrappers closed tightly.",
+        "Fry in a preheated Oil of about 350°F until golden brown(about 2-3 minutes). Serve with your favorite dip or sauce or eat as is. Enjoy!"
+      ]
+    }
+  ],
+  "nutrition": [
+    {
+      "name": "Calories",
+      "quantity": "143g"
+    },
+    {
+      "name": "Carbohydrates",
+      "quantity": "14g"
+    },
+    {
+      "name": "Fat",
+      "quantity": "3g"
+    },
+    {
+      "name": "Cholesterol",
+      "quantity": "1mg"
+    },
+    {
+      "name": "Sodium",
+      "quantity": "214mg"
+    },
+    {
+      "name": "Potassium",
+      "quantity": "2g"
+    },
+    {
+      "name": "Sugar",
+      "quantity": "1g"
+    },
+    {
+      "name": "Vitamin A",
+      "quantity": "930g"
+    },
+    {
+      "name": "Vitamin C",
+      "quantity": "7.3g"
+    },
+    {
+      "name": "Calcium",
+      "quantity": "32g"
+    },
+    {
+      "name": "Iron",
+      "quantity": "0.8g"
+    }
+  ],
+  "bottom image": "https://www.notion.so/ebosetale/Spring-roll-ae18d702c15a465c870abfd373a683e6#ec9da3d3a5dc4adf927caf0b8a531e3f"
+
+}

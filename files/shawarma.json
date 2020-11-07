@@ -1,0 +1,151 @@
+{
+  "name": "Shawarma",
+  "description": "Shawarma is popular in African countries like South Africa, Nigeria and Ghana. The African version adds some flare to the traditional middle eastern Shawarma. It is created using easy to get sweet, savory and tangy spices which all comes together to create an highly seasoned marinated slices of meat.",
+  "top image": "https://www.notion.so/ebosetale/Shawarma-6cec9000049643739dde68d06ddf5fa0#936da27f2b9240e0a1db1c3ad34614b3",
+  "ingredients": [
+    {
+      "name": "Chicken or Turkey or Goat meat",
+      "type": "Boneless",
+      "quantity": 8
+    },
+    {
+      "for the marinade": [
+        {
+          "name": "Malt Vinegar",
+          "quantity": "Half cup"
+        },
+        {
+          "name": "Onion",
+          "quantity": 1,
+          "type": "Large"
+        },
+        {
+          "name": "Lemon Juice",
+          "quantity": "2Tbs"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 4,
+          "type": "minced"
+        },
+        {
+          "name": "Black Pepper",
+          "quantity": "2Tbs"
+        },
+        {
+          "name": "Paprika",
+          "quantity": "2Tbs",
+          "requirement": "optional"
+        },
+        {
+          "name": "Nutmeg",
+          "quantity": "1/2tsp"
+        },
+        {
+          "name": "Tumeric or Curry Powder",
+          "quantity": "1tsp"
+        },
+        {
+          "name": "Thyme",
+          "quantity": "1/2tsp"
+        },
+        {
+          "name": "Seasoning cube",
+          "quantity": "1/2Tsp",
+          "requirement": "optional"
+        },
+        {
+          "name": "Fresh pepper",
+          "quantity": 1,
+          "type": "minced"
+        },
+        {
+          "name": "Olive oil or any cooking oil",
+          "quantity": "2Tbs"
+        },
+        {
+          "name": "Salt",
+          "quantity": "1tsp"
+        }
+      ]
+    },
+    {
+      "for the sauce": [
+        {
+          "name": "Tahini",
+          "quantity": "Half cup"
+        },
+        {
+          "name": "Yoghurt",
+          "quantity": "1/4 cup",
+          "type": "plain"
+        },
+        {
+          "name": "Lemon Juice",
+          "quantity": "2Tbs"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 1,
+          "type": "minced"
+        },
+        {
+          "name": "Black Pepper",
+          "quantity": "to taste"
+        },
+        {
+          "name": "Fresh parsley",
+          "quantity": 1,
+          "type": "chopped"
+        },
+        {
+          "name": "Olive oil or any cooking oil",
+          "quantity": "1Tbs"
+        },
+        {
+          "name": "Salt",
+          "quantity": "1tsp"
+        },
+        {
+          "Note": "While Tahini or the Yogurt sauce are the most common sauces used for Shawarma recipes, I will like to introduce you a delectable easy to put together African Shawarma sauce. we use a mixture of Ketchup and Mayonnaise. A hint of pepper is kind of a must in making this Shawarma sauce, so I used a little bit of Cayenne pepper. Red pepper flakes will work just as well. If you don’t want that extra little heat, then you can skip it."
+        }
+      ]
+    },
+    {
+      "for plating": [
+        {
+          "name": "Fresh Tomatoes",
+          "quantity": 4,
+          "type": "chopped"
+        },
+        {
+          "name": "Onion",
+          "quantity": "1",
+          "type": "sliced"
+        },
+        {
+          "name": "Lettuce",
+          "quantity": "4",
+          "type": "Shredded"
+        },
+        {
+          "name": "Shawarma (pita) bread",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "steps": [
+    "Wash and boil the chicken making sure it’s cooked through. Cover and leave in the fridge for at least 20 minutes to cool.",
+    "In a baking dish or bowl, mix together the malt vinegar, vegetable oil, mixed spice(curry and thyme), seasoning cube, salt and pepper.",
+    "Remove from the dish or pot, and cut into slices.",
+    "Place the sliced chicken into the mixture and turn to coat. Cover and marinate in the refrigerator for at least 4 hours or overnight.",
+    "Preheat the oven to 350 degrees F (175 degrees C).",
+    "In a small bowl, mix together the ingredients for the sauce (pepper if desired) and keep aside.",
+    "Cover the chicken and bake in the marinade for 5 - 10 minutes, turning once.",
+    "Place sliced chicken, tomato, onion, and lettuce onto pita breads.",
+    "Top with the sauce and Roll up.",
+    "Optional - Place the rolled wrap on a heavy bottom skillet or a grill and brown the wrap enjoy!"
+  ],
+  "bottom image": "https://www.notion.so/ebosetale/Shawarma-6cec9000049643739dde68d06ddf5fa0#be994e6201234755a4f6bb95496b520b"
+}
