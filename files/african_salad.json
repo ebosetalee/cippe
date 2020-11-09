@@ -66,42 +66,44 @@
       "quantity": "As required"
     }
   ],
-  "preparations": [
-    {
-      "action": "Prepare the ehuru seeds by roasting, peeling and grinding them with a dry mill. This is what Calabash nutmeg looks like in case you’re wondering…",
-      "image": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#f1a75c45b2c34a2f9639aa77c8813305"
-    },
-    {
-      "action": "If you will use kanda (cow skin), cook till done and cut into small pieces."
-    },
-    {
-      "action": "Depending on your choice of fish (you can also use all of them) soak the stock fish in water, debone the dry fish and clean and gut your fish, then marinate with salt, curry, bouillon cube or seasoning. Leave to marinate in your fridge or a cool place for at least 30 minutes… Then grill or fry. I prefer grilling, this was grilled for 45 minutes on 220 degrees…",
-      "image1": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#cef5ffb2ceea4967af00c1f585a96966",
-      "image2": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#cef5ffb2ceea4967af00c1f585a96966",
-      "action2": "Boil the stock fish with salt and seasoning till soft…",
-      "image3": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#ed55b960b18847608c4bcf23022098c6"
-    },
-    {
-      "action": "Wash and cut the vegetables into tiny pieces. Cut the big bulb of onion into tiny pieces and cut the medium one in circles. Wash the garden eggs and set aside, no need to cut these but some prefer it sliced."
-    },
-    {
-      "action": "Blend the crayfish, pepper, 1/2 of the onion and ground Ehuru till smooth and set aside….",
-      "image": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#6a430f0966a844878703af9a8d329b80"
-    },
-    {
-      "action": "Soak the Abacha in cold water this should take roughly 10 minutes and rinse the Ugba with lukewarm water to rid it of dirt…",
-      "image": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#6a430f0966a844878703af9a8d329b80"
-    },
-    {
-      "action": "Once the Abacha has softened, put in a sieve to drain.",
-      "image": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#3b1610c4f5b348359af68cac53ebd109"
-    },
-    {
-      "action": "Put the powdered potash in a cup or bowl and pour about 1 cup of cold water. Stir well and you are ready to start making the African Salad.",
-      "image": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#2b4ba453600b4aa4856ac7c006ca91b7"
-    }
-  ],
   "steps": [
+    {
+        "preparations": [
+        {
+          "action": "Prepare the ehuru seeds by roasting, peeling and grinding them with a dry mill. This is what Calabash nutmeg looks like in case you’re wondering…",
+          "image": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#f1a75c45b2c34a2f9639aa77c8813305"
+        },
+        {
+          "action": "If you will use kanda (cow skin), cook till done and cut into small pieces."
+        },
+        {
+          "action": "Depending on your choice of fish (you can also use all of them) soak the stock fish in water, debone the dry fish and clean and gut your fish, then marinate with salt, curry, bouillon cube or seasoning. Leave to marinate in your fridge or a cool place for at least 30 minutes… Then grill or fry. I prefer grilling, this was grilled for 45 minutes on 220 degrees…",
+          "image1": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#cef5ffb2ceea4967af00c1f585a96966",
+          "image2": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#cef5ffb2ceea4967af00c1f585a96966",
+          "action2": "Boil the stock fish with salt and seasoning till soft…",
+          "image3": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#ed55b960b18847608c4bcf23022098c6"
+        },
+        {
+          "action": "Wash and cut the vegetables into tiny pieces. Cut the big bulb of onion into tiny pieces and cut the medium one in circles. Wash the garden eggs and set aside, no need to cut these but some prefer it sliced."
+        },
+        {
+          "action": "Blend the crayfish, pepper, 1/2 of the onion and ground Ehuru till smooth and set aside….",
+          "image": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#6a430f0966a844878703af9a8d329b80"
+        },
+        {
+          "action": "Soak the Abacha in cold water this should take roughly 10 minutes and rinse the Ugba with lukewarm water to rid it of dirt…",
+          "image": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#6a430f0966a844878703af9a8d329b80"
+        },
+        {
+          "action": "Once the Abacha has softened, put in a sieve to drain.",
+          "image": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#3b1610c4f5b348359af68cac53ebd109"
+        },
+        {
+          "action": "Put the powdered potash in a cup or bowl and pour about 1 cup of cold water. Stir well and you are ready to start making the African Salad.",
+          "image": "https://www.notion.so/ebosetale/African-Salad-Abacha-and-Ugba-6bdf6b19b43d4dd49210d9d67b8e628b#2b4ba453600b4aa4856ac7c006ca91b7"
+        }
+      ]
+    },
     {
       "description": "The key to making a good African Salad is to make sure that all the ingredients are well incorporated. As you will see below, there's a lot of add this, stir, add that, stir. You may wonder why you can't just add everything and stir but if you do that, it will be very difficult for you to get a good blend of all the ingredients."
     },

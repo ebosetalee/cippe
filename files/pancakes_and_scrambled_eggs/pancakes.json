@@ -27,7 +27,8 @@
           "name": "Powdered",
           "quantity": "3tbs"
         }
-      ]
+      ],
+      "requirement": "One or the other not all"
     },
     {
       "name": "Water",

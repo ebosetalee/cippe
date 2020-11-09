@@ -13,10 +13,12 @@
       "quantity": "As required"
     }
   ],
-  "preparations": [
-    "Rinse the rice in cold water and put in a sizeable pot."
-  ],
   "steps": [
+    {
+      "preparations": [
+        "Rinse the rice in cold water and put in a sizeable pot."
+      ]
+    },
     "Pour just enough water to cover the rice and start cooking at medium heat.",
     "When the first dose of water dries up, check the rice by mashing it between your fingers. If the rice grains have even a tiny resistance when you press them, then it needs to be cooked some more.",
     "Reduce the heat to low, add a little bit more water and continue cooking till the water dries.",

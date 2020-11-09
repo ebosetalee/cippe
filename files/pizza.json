@@ -108,38 +108,40 @@
       ]
     }
     ],
-  "preparations": [
+  "steps": [
     {
-      "making the pizza dough": [
+      "preparations": [
         {
-          "name": "Proof the yeast",
-          "action": "Place the warm water in the large bowl of a heavy duty stand mixer. Sprinkle the yeast over the warm water and let it sit for 5 minutes until the yeast is dissolved.",
-          "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#c5c5018e0a6348aa86b2dcf1f9d2418e",
-          "action2": "After 5 minutes stir if the yeast hasn't dissolved completely. The yeast should begin to foam or bloom, indicating that the yeast is still active and alive.",
-          "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#e4ffd750329e487380eff8aa034066ec",
-          "note": "if you are using \"instant yeast\" instead of \"active yeast\", no proofing is required. Just add to the flour in the next step."
+          "making the pizza dough": [
+            {
+              "name": "Proof the yeast",
+              "action": "Place the warm water in the large bowl of a heavy duty stand mixer. Sprinkle the yeast over the warm water and let it sit for 5 minutes until the yeast is dissolved.",
+              "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#c5c5018e0a6348aa86b2dcf1f9d2418e",
+              "action2": "After 5 minutes stir if the yeast hasn't dissolved completely. The yeast should begin to foam or bloom, indicating that the yeast is still active and alive.",
+              "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#e4ffd750329e487380eff8aa034066ec",
+              "note": "if you are using \"instant yeast\" instead of \"active yeast\", no proofing is required. Just add to the flour in the next step."
+            },
+            {
+              "name": "Make and knead the pizza dough",
+              "action": "Add the flour, salt, sugar, and olive oil, and using the mixing paddle attachment, mix on low speed for a minute. Then replace the mixing paddle with the dough hook attachment. \n\nKnead the pizza dough on low to medium speed using the dough hook about 7-10 minutes.\n\nIf you don't have a mixer, you can mix the ingredients together and knead them by hand.\n\nThe dough should be a little sticky, or tacky to the touch. If it's too wet, sprinkle in a little more flour."
+            },
+            {
+              "name": "Let the dough rise",
+              "action": "Spread a thin layer of olive oil over the inside of a large bowl. Place the pizza dough in the bowl and turn it around so that it gets coated with the oil. \n\nAt this point you can choose how long you want the dough to ferment and rise. A slow fermentation (24 hours in the fridge) will result in more complex flavors in the dough. A quick fermentation (1 1/2 hours in a warm place) will allow the dough to rise sufficiently to work with.\n\nCover the dough with plastic wrap or damp kitchen towel.",
+              "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#8d164725469442259000286232b7ea07",
+              "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#1c121cc812cb4f8191aa6c7752d9cf80",
+              "action2": "For a quick rise, place the dough in a warm place (75°F to 85°F) for 1 1/2 hours.\n\nFor a medium rise, place the dough in a regular room temperature place (your kitchen counter will do fine) for 8 hours. For a longer rise, chill the dough in the refrigerator for 24 hours (no more than 48 hours).\n\nThe longer the rise (to a point) the better the flavor the crust will have."
+            }
+          ]
         },
         {
-          "name": "Make and knead the pizza dough",
-          "action": "Add the flour, salt, sugar, and olive oil, and using the mixing paddle attachment, mix on low speed for a minute. Then replace the mixing paddle with the dough hook attachment. \n\nKnead the pizza dough on low to medium speed using the dough hook about 7-10 minutes.\n\nIf you don't have a mixer, you can mix the ingredients together and knead them by hand.\n\nThe dough should be a little sticky, or tacky to the touch. If it's too wet, sprinkle in a little more flour."
+          "make ahead freezing": "After the pizza dough has risen, you can freeze it to use later. Divide the dough in half (or the portion sizes you will be using to make your pizzas). Place on parchment paper or a lightly floured dish and place, uncovered, in the freezer for 15 to 20 minutes. Then remove from the freezer, and place in individual freezer bags, removing as much air as you can from the bags. Return to the freezer and store for up to 3 months.\n\nThaw the pizza dough in the refrigerator overnight or for 5 to 6 hours. Then let the dough sit at room temperature for 30 minutes before stretching it out in the next steps."
         },
         {
-          "name": "Let the dough rise",
-          "action": "Spread a thin layer of olive oil over the inside of a large bowl. Place the pizza dough in the bowl and turn it around so that it gets coated with the oil. \n\nAt this point you can choose how long you want the dough to ferment and rise. A slow fermentation (24 hours in the fridge) will result in more complex flavors in the dough. A quick fermentation (1 1/2 hours in a warm place) will allow the dough to rise sufficiently to work with.\n\nCover the dough with plastic wrap or damp kitchen towel.",
-          "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#8d164725469442259000286232b7ea07",
-          "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#1c121cc812cb4f8191aa6c7752d9cf80",
-          "action2": "For a quick rise, place the dough in a warm place (75°F to 85°F) for 1 1/2 hours.\n\nFor a medium rise, place the dough in a regular room temperature place (your kitchen counter will do fine) for 8 hours. For a longer rise, chill the dough in the refrigerator for 24 hours (no more than 48 hours).\n\nThe longer the rise (to a point) the better the flavor the crust will have."
+          "making the sauce": "Stir together the Tomato paste, Italian seasoning, Onion Powder, Minced Garlic, Black pepper, Olive Oil, Water, Honey or Brown sugar and Salt to taste and set aside."
         }
       ]
     },
-    {
-      "make ahead freezing": "After the pizza dough has risen, you can freeze it to use later. Divide the dough in half (or the portion sizes you will be using to make your pizzas). Place on parchment paper or a lightly floured dish and place, uncovered, in the freezer for 15 to 20 minutes. Then remove from the freezer, and place in individual freezer bags, removing as much air as you can from the bags. Return to the freezer and store for up to 3 months.\n\nThaw the pizza dough in the refrigerator overnight or for 5 to 6 hours. Then let the dough sit at room temperature for 30 minutes before stretching it out in the next steps."
-    },
-    {
-      "making the sauce": "Stir together the Tomato paste, Italian seasoning, Onion Powder, Minced Garlic, Black pepper, Olive Oil, Water, Honey or Brown sugar and Salt to taste and set aside."
-    }
-  ],
-  "steps": [
     {
       "name": "Preheat pizza stone (or pizza pan or baking sheet)",
       "action": "Place a pizza stone on a rack in the lower third of your oven. Preheat the oven to 475°F (245°C) for at least 30 minutes, preferably an hour. If you don't have a pizza stone, you can use a pizza pan or a thick baking sheet; you need something that will not warp at high temperatures."
