@@ -4,9 +4,6 @@
   "top image": "https://www.notion.so/ebosetale/Mosa-Plantain-Puff-Puff-75dcd7dacda0412f9d5e5d3247a9c4f2#0790b5f9567b4846bec433f7ee0fbfed",
   "ingredients": [
     {
-      "description": "The following ingredients give 16 medium balls of Plantain Mosa:"
-    },
-    {
       "name": "Plantain",
       "quantity": 1,
       "type": "over-riped"
@@ -39,6 +36,7 @@
     }
   ],
   "notes": [
+    "The following ingredients give 16 medium balls of Plantain Mosa",
     "The vegetable oil should be about 3 inches deep when poured into the pot.",
     "You can use cayenne pepper (fresh or dry) in the absence of Habanero pepper. The dry one needs to be ground into powder before use."
   ],

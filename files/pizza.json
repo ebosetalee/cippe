@@ -5,9 +5,7 @@
   "ingredients": [
     {
       "pizza dough": [
-        {
-          "description": "Pizza dough is a yeasted dough which requires active dry yeast. Make sure the check the expiration date on the yeast package! Yeast that is too old may be dead and won't work."
-        },
+        "Pizza dough is a yeasted dough which requires active dry yeast. Make sure the check the expiration date on the yeast package! Yeast that is too old may be dead and will not work",
         {
           "name": "Bread Flour",
           "quantity": "3 Cups"
@@ -116,9 +114,11 @@
             {
               "name": "Proof the yeast",
               "action": "Place the warm water in the large bowl of a heavy duty stand mixer. Sprinkle the yeast over the warm water and let it sit for 5 minutes until the yeast is dissolved.",
-              "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#c5c5018e0a6348aa86b2dcf1f9d2418e",
-              "action2": "After 5 minutes stir if the yeast hasn't dissolved completely. The yeast should begin to foam or bloom, indicating that the yeast is still active and alive.",
-              "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#e4ffd750329e487380eff8aa034066ec",
+              "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#c5c5018e0a6348aa86b2dcf1f9d2418e"
+            },
+            {
+              "action": "After 5 minutes stir if the yeast hasn't dissolved completely. The yeast should begin to foam or bloom, indicating that the yeast is still active and alive.",
+              "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#e4ffd750329e487380eff8aa034066ec",
               "note": "if you are using \"instant yeast\" instead of \"active yeast\", no proofing is required. Just add to the flour in the next step."
             },
             {
@@ -128,9 +128,10 @@
             {
               "name": "Let the dough rise",
               "action": "Spread a thin layer of olive oil over the inside of a large bowl. Place the pizza dough in the bowl and turn it around so that it gets coated with the oil. \n\nAt this point you can choose how long you want the dough to ferment and rise. A slow fermentation (24 hours in the fridge) will result in more complex flavors in the dough. A quick fermentation (1 1/2 hours in a warm place) will allow the dough to rise sufficiently to work with.\n\nCover the dough with plastic wrap or damp kitchen towel.",
-              "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#8d164725469442259000286232b7ea07",
-              "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#1c121cc812cb4f8191aa6c7752d9cf80",
-              "action2": "For a quick rise, place the dough in a warm place (75°F to 85°F) for 1 1/2 hours.\n\nFor a medium rise, place the dough in a regular room temperature place (your kitchen counter will do fine) for 8 hours. For a longer rise, chill the dough in the refrigerator for 24 hours (no more than 48 hours).\n\nThe longer the rise (to a point) the better the flavor the crust will have."
+              "image": ["https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#8d164725469442259000286232b7ea07", "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#1c121cc812cb4f8191aa6c7752d9cf80"]
+            },
+            {
+              "action": "For a quick rise, place the dough in a warm place (75°F to 85°F) for 1 1/2 hours.\n\nFor a medium rise, place the dough in a regular room temperature place (your kitchen counter will do fine) for 8 hours. For a longer rise, chill the dough in the refrigerator for 24 hours (no more than 48 hours).\n\nThe longer the rise (to a point) the better the flavor the crust will have."
             }
           ]
         },
@@ -149,9 +150,10 @@
     {
       "name": "Divide the dough into two balls",
       "action": "Remove the plastic cover from the dough. Dust your hands with flour and push the dough down so it deflates a bit. Divide the dough in half.",
-      "image1": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#0fc70e95b82f491b9768a29a52b98221",
-      "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#cbc8c755dcfa4ba8abf37f623f89839e",
-      "action2": "Form two round balls of dough. Place each in its own bowl, cover with plastic and let sit for 15 minutes (or up to 2 hours)."
+      "image": ["https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#0fc70e95b82f491b9768a29a52b98221", "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#cbc8c755dcfa4ba8abf37f623f89839e"]
+    },
+    {
+      "action": "Form two round balls of dough. Place each in its own bowl, cover with plastic and let sit for 15 minutes (or up to 2 hours)."
     },
     {
       "name": "Prep toppings",
@@ -160,27 +162,34 @@
     {
       "name": "Flatten dough ball, and stretch out into a round",
       "action": "Working one ball of dough at a time, take one ball of dough and flatten it with your hands on a lightly floured work surface. \n\nStarting at the center and working outwards, use your fingertips to press the dough to 1/2-inch thick. Turn and stretch the dough until it will not stretch further.",
-      "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#664e651dd1914e70a9ec21c6f34bb6d9",
-      "action2": "Let the dough relax 5 minutes and then continue to stretch it until it reaches the desired diameter - 10 to 12 inches.\n\nTreat the dough gently!\n\nYou can also hold up the edges of the dough with your fingers, letting the dough hang and stretch, while working around the edges of the dough.\n\nIf a hole appears in your dough, place the dough on a floured surface and push the dough back together to seal the hole.\n\nUse your palm to flatten the edge of the dough where it is thicker. Pinch the edges if you want to form a lip."
+      "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#664e651dd1914e70a9ec21c6f34bb6d9"
+    },
+    {  
+      "action": "Let the dough relax 5 minutes and then continue to stretch it until it reaches the desired diameter - 10 to 12 inches.\n\nTreat the dough gently!\n\nYou can also hold up the edges of the dough with your fingers, letting the dough hang and stretch, while working around the edges of the dough.\n\nIf a hole appears in your dough, place the dough on a floured surface and push the dough back together to seal the hole.\n\nUse your palm to flatten the edge of the dough where it is thicker. Pinch the edges if you want to form a lip."
     },
     {
       "name": "Brush dough top with olive oil",
-      "action": "Use your fingertips to press down and make dents along the surface of the dough to prevent bubbling. Brush the top of the dough with olive oil (to prevent it from getting soggy from the toppings). Let rest another 10-15 minutes.",
-      "action2": "Repeat with the second ball of dough."
+      "action": "Use your fingertips to press down and make dents along the surface of the dough to prevent bubbling. Brush the top of the dough with olive oil (to prevent it from getting soggy from the toppings). Let rest another 10-15 minutes."
+    },
+    {  
+      "action": "Repeat with the second ball of dough."
     },
     {
       "name": "Sprinkle pizza peel with corn meal, put flattened dough on top",
       "action": "Lightly sprinkle your pizza peel (or flat baking sheet) with cornmeal. (The corn meal will act as little ball bearings to help move the pizza from the pizza peel into the oven.)",
-      "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#4453ae63c3bf4f968dd4ba52c1d9172b",
-      "action2": "Transfer one prepared flattened dough to the pizza peel.",
-      "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#48de4b52dcaf4aac97069c9f3cd6029a",
-      "action3": "If the dough has lost its shape in the transfer, lightly shape it to the desired dimensions."
+      "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#4453ae63c3bf4f968dd4ba52c1d9172b"
+    },
+    {
+      "action": "Transfer one prepared flattened dough to the pizza peel.",
+      "image": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#48de4b52dcaf4aac97069c9f3cd6029a"
+    },
+    {
+      "action": "If the dough has lost its shape in the transfer, lightly shape it to the desired dimensions."
     },
     {
       "name": "Spread with tomato sauce and sprinkle with toppings",
       "action": "Spoon on the tomato sauce, sprinkle with cheese, and place your desired toppings on the pizza.",
-      "image1": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#223107e5791a4917ab95908ed67bfc1d",
-      "image2": "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#b998e7f22ced4a85abdfbba3ba9b3904"
+      "image": ["https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#223107e5791a4917ab95908ed67bfc1d", "https://www.notion.so/ebosetale/Pizza-48ab86da0c904b4493b0d03f9686c98c#b998e7f22ced4a85abdfbba3ba9b3904"]
     },
     {
       "name": "Sprinkle cornmeal on pizza stone, slide pizza onto pizza stone in oven",
