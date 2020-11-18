@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, send_file
 import json
+import sqlite3
 
 
 app = Flask(__name__)
@@ -17,58 +18,36 @@ def selfie():
 
 @app.route("/recipies", methods=["GET"])
 def recipies():
-    food = [
-        "Ewedu Soup = ewedu_soup",
-        "African Salad - Abacha and Ugba = african_salad",
-        "Tuwo Shinkafa = tuwo_shinkafa",
-        "Classic Hamburger = classic_hamburger", "Pizza = pizza",
-        "Pancakes and Scrambled Eggs = pancakes_and_scrambled_eggs",
-        "Shawarma = shawarma", "Small Chops = small_chops"
-    ]
-    with open("files/cippe.json", "r") as items:
-        return jsonify({"status": "success", "data": json.load(items)})
+    cippie_db = sqlite3.connect("cippe.db")
+    cursor = cippie_db.cursor()
+    recipe = cursor.execute("SELECT food_name FROM recipies")
+    return jsonify({"status": "success", "data": recipe.fetchall()})
 
 
 @app.route("/recipies/<name>", methods=["GET"])
 def get_recipie(name):
-    with open("files/{}.json".format(name), "r") as food:
-        return jsonify({"status": "success", "data": json.load(food)})
+    cippie_db = sqlite3.connect("cippe.db")
+    cursor = cippie_db.cursor()
+    recipies = cursor.execute(
+        "SELECT food_name, description, top_image, bottom_image FROM recipies WHERE food_name=?",
+        (name, ))
+    return jsonify({"status": "success", "data": recipies.fetchall()[0]})
 
 
 @app.route("/recipies/<name>/<act>", methods=["GET"])
 def get_act(name, act):
-    with open("files/{}.json".format(name), "r") as data_file:
-        food = json.load(data_file)
-        return jsonify({"status": "success", f"{act}": food[f"{act}"]})
-
-
-@app.route("/recipies/small_chops/<name>", methods=["GET"])
-def get_small_chops_recipie(name):
-    with open("files/small_chops/{}.json".format(name), "r") as food:
-        return jsonify({"status": "success", "data": json.load(food)})
-
-
-@app.route("/recipies/small_chops/<name>/<act>", methods=["GET"])
-def get_small_chops_act(name, act):
-    with open("files/small_chops/{}.json".format(name), "r") as data_file:
-        food = json.load(data_file)
-        return jsonify({"status": "success", f"{act}": food[f"{act}"]})
-
-
-@app.route("/recipies/pancakes_and_scrambled_eggs/<name>", methods=["GET"])
-def get_pancakes_and_scrambled_eggs_recipie(name):
-    with open("files/pancakes_and_scrambled_eggs/{}.json".format(name),
-              "r") as food:
-        return jsonify({"status": "success", "data": json.load(food)})
-
-
-@app.route("/recipies/pancakes_and_scrambled_eggs/<name>/<act>",
-           methods=["GET"])
-def get_pancakes_and_scrambled_eggs_act(name, act):
-    with open("files/pancakes_and_scrambled_eggs/{}.json".format(name),
-              "r") as data_file:
-        food = json.load(data_file)
-        return jsonify({"status": "success", f"{act}": food[f"{act}"]})
+    cippe_db = sqlite3.connect("cippe.db")
+    cursor = cippe_db.cursor()
+    key = cursor.execute("SELECT id FROM recipies WHERE food_name=?", (name, ))
+    key_id = key.fetchone()[0]
+    if act == "ingredients":
+        step_ingre = cursor.execute(
+            "SELECT category, name, quantity, type, requirement, size FROM ingredients WHERE food_id=?",
+            (key_id, ))
+    elif act == "steps":
+        step_ingre = cursor.execute(
+            "SELECT category, name, action, image FROM steps WHERE food_id=?",(key_id, ))
+    return jsonify({"status": "success", f"{act}": step_ingre.fetchall()})
 
 
 if __name__ == "__main__":
