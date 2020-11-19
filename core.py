@@ -21,6 +21,12 @@ db.commit()
 
 
 def get_ingredients(food, count):
+    """
+    gets the ingredients from each food's Json file
+
+    :param food: The json file
+    :param count:the index for foreign key
+    """
     ingredients = food["ingredients"]
     for item in ingredients:
         if type(item) is dict:
@@ -106,6 +112,12 @@ def get_ingredients(food, count):
 
 
 def get_steps(food, count):
+    """
+    gets the steps from each food's Json file
+
+    :param food: The json file
+    :param count:the index for foreign key
+    """
     steps = food["steps"]
     for item in steps:
         if type(item) is dict:
