@@ -1,7 +1,7 @@
 {
   "name": "Puff Puff",
   "description": "Puff puff is a deep-fried dough. They are made from yeast dough, shaped into balls and deep-fried until golden brown. It has a doughnut-like texture but slightly more chewy. It is a very common snack eaten by so many countries but with different names and a little bit of variation in the mode of preparation.",
-  "top image": "https://www.notion.so/ebosetale/Puff-puff-4da85a2651e24bec98f42e1702404323#bf82fefb352f44de890c09c257c8cc37",
+  "top image": "https://www.myactivekitchen.com/wp-content/uploads/2019/05/nigerian-puff-puff-recipe-how-to-make-puff-puff-img-1.jpg",
   "ingredients": [
     {
       "name": "Flour",
@@ -98,5 +98,6 @@
       "name": "Iron",
       "quantity": "1mg"
     }
-  ]
+  ],
+  "bottom image": "https://www.scotmaple.com/wp-content/uploads/2020/08/puff-puff-.jpeg"
 }
