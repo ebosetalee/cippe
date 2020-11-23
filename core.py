@@ -3,17 +3,17 @@ import json
 from utils.escape import quote_identifier
 
 
-db = sqlite3.connect("cippe.db")
-db.execute("DROP TABLE recipies")
+db = sqlite3.connect("cippedb.db")
+db.execute("DROP TABLE recipies") #if table exist
 db.execute(
     "CREATE TABLE IF NOT EXISTS recipies (id INTEGER PRIMARY KEY AUTOINCREMENT, food_name TEXT NOT NULL, description "
     "TEXT NOT NULL, top_image TEXT NOT NULL, bottom_image TEXT NOT NULL)")
-db.execute("DROP TABLE ingredients")
+db.execute("DROP TABLE ingredients") # if table exist
 db.execute(
     "CREATE TABLE IF NOT EXISTS ingredients (id INTEGER PRIMARY KEY AUTOINCREMENT, food_id INTEGER NOT NULL, "
     "category TEXT, name TEXT, quantity TEXT, type TEXT, requirement TEXT, size TEXT, FOREIGN KEY (food_id) "
     "REFERENCES recipies (id))")
-db.execute("DROP TABLE steps")
+db.execute("DROP TABLE steps") 
 db.execute(
     "CREATE TABLE IF NOT EXISTS steps (id INTEGER PRIMARY KEY AUTOINCREMENT, food_id INTEGER NOT NULL, category TEXT, "
     "name TEXT, action TEXT, image TEXT, FOREIGN KEY (food_id) REFERENCES recipies (id))")
