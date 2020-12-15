@@ -4,20 +4,28 @@ from utils.escape import quote_identifier
 
 
 db = sqlite3.connect("cippedb.db")
-# db.execute("DROP TABLE recipies") #if table exist
-db.execute(
-    "CREATE TABLE IF NOT EXISTS recipies (id INTEGER PRIMARY KEY AUTOINCREMENT, food_name TEXT NOT NULL, description "
-    "TEXT NOT NULL, top_image TEXT NOT NULL, bottom_image TEXT NOT NULL)")
-# db.execute("DROP TABLE ingredients") # if table exist
-db.execute(
-    "CREATE TABLE IF NOT EXISTS ingredients (id INTEGER PRIMARY KEY AUTOINCREMENT, food_id INTEGER NOT NULL, "
-    "category TEXT, name TEXT, quantity TEXT, type TEXT, requirement TEXT, size TEXT, FOREIGN KEY (food_id) "
-    "REFERENCES recipies (id))")
-# db.execute("DROP TABLE steps") 
-db.execute(
-    "CREATE TABLE IF NOT EXISTS steps (id INTEGER PRIMARY KEY AUTOINCREMENT, food_id INTEGER NOT NULL, category TEXT, "
-    "name TEXT, action TEXT, image TEXT, FOREIGN KEY (food_id) REFERENCES recipies (id))")
-db.commit()
+
+def drop_table():
+    db.execute("DROP TABLE recipies") #if table exist
+    db.execute("DROP TABLE ingredients") # if table exist
+    db.execute("DROP TABLE steps") 
+    db.commit()
+
+
+def create_table():
+    db.execute(
+        "CREATE TABLE IF NOT EXISTS recipies (id INTEGER PRIMARY KEY AUTOINCREMENT, food_name TEXT NOT NULL, description "
+        "TEXT NOT NULL, top_image TEXT NOT NULL, bottom_image TEXT NOT NULL)")
+
+    db.execute(
+        "CREATE TABLE IF NOT EXISTS ingredients (id INTEGER PRIMARY KEY AUTOINCREMENT, food_id INTEGER NOT NULL, "
+        "category TEXT, name TEXT, quantity TEXT, type TEXT, requirement TEXT, size TEXT, FOREIGN KEY (food_id) "
+        "REFERENCES recipies (id))")
+
+    db.execute(
+        "CREATE TABLE IF NOT EXISTS steps (id INTEGER PRIMARY KEY AUTOINCREMENT, food_id INTEGER NOT NULL, category TEXT, "
+        "name TEXT, action TEXT, image TEXT, FOREIGN KEY (food_id) REFERENCES recipies (id))")
+    db.commit()
 
 
 def get_ingredients(food, count):
@@ -217,42 +225,43 @@ def get_steps(food, count):
     db.commit()
 
 
-for index, items in enumerate([
-        "african_salad", "classic_hamburger", "ewedu_soup", "pizza",
-        "shawarma", "tuwo_shinkafa"]):
-    with open("files/{}.json".format(items), "r") as data_file:
-        food = json.load(data_file)
-        db.execute("INSERT INTO recipies VALUES(NULL, '{0}', '{1}', '{2}', '{3}')".format(
-            food["name"], food["description"], food["top image"], food["bottom image"]))
-        db.commit()
-        count = (index + 1)
+def add_data():
+    for index, items in enumerate([
+            "african_salad", "classic_hamburger", "ewedu_soup", "pizza",
+            "shawarma", "tuwo_shinkafa"]):
+        with open("files/{}.json".format(items), "r") as data_file:
+            food = json.load(data_file)
+            db.execute("INSERT INTO recipies VALUES(NULL, '{0}', '{1}', '{2}', '{3}')".format(
+                food["name"], food["description"], food["top image"], food["bottom image"]))
+            db.commit()
+            count = (index + 1)
 
-        get_ingredients(food, count)
-        get_steps(food, count)
+            get_ingredients(food, count)
+            get_steps(food, count)
 
-for index, item in enumerate(["pancakes", "scrambled_eggs"]):
-    with open("files/pancakes_and_scrambled_eggs/{}.json".format(item),
-              "r") as data_file:
-        food = json.load(data_file)
-        db.execute("INSERT INTO recipies VALUES(NULL, {0}, {1}, '{2}', '{3}')".format(
-            quote_identifier(food["name"]), quote_identifier(food["description"]), 
-            food["top image"], food["bottom image"]))
-        db.commit()
+    for index, item in enumerate(["pancakes", "scrambled_eggs"]):
+        with open("files/pancakes_and_scrambled_eggs/{}.json".format(item),
+                "r") as data_file:
+            food = json.load(data_file)
+            db.execute("INSERT INTO recipies VALUES(NULL, {0}, {1}, '{2}', '{3}')".format(
+                quote_identifier(food["name"]), quote_identifier(food["description"]), 
+                food["top image"], food["bottom image"]))
+            db.commit()
 
-        count = (index + 7)
-        get_ingredients(food, count)
-        get_steps(food, count)
+            count = (index + 7)
+            get_ingredients(food, count)
+            get_steps(food, count)
 
-for index, item in enumerate(["mosa", "puff_puff", "samosa", "spring_roll"]):
-    with open("files/small_chops/{}.json".format(item), "r") as data_file:
-        food = json.load(data_file)
-        db.execute("INSERT INTO recipies VALUES(NULL, {0}, {1}, '{2}', '{3}')".format(
-            quote_identifier(food["name"]), quote_identifier(food["description"]), 
-            food["top image"], food["bottom image"]))
-        db.commit()
+    for index, item in enumerate(["mosa", "puff_puff", "samosa", "spring_roll"]):
+        with open("files/small_chops/{}.json".format(item), "r") as data_file:
+            food = json.load(data_file)
+            db.execute("INSERT INTO recipies VALUES(NULL, {0}, {1}, '{2}', '{3}')".format(
+                quote_identifier(food["name"]), quote_identifier(food["description"]), 
+                food["top image"], food["bottom image"]))
+            db.commit()
 
-        count = (index + 9)
-        get_ingredients(food, count)
-        get_steps(food, count)
+            count = (index + 9)
+            get_ingredients(food, count)
+            get_steps(food, count)
 
 # db.close()

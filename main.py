@@ -1,9 +1,8 @@
 from flask import Flask, jsonify, send_file, request 
-from core import get_ingredients, get_steps
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy.ext.automap import automap_base
+from database import Recipie, Ingredient, Step
+from core import get_ingredients, get_steps
+from peewee import *
 import sqlite3
 import json
 
@@ -11,18 +10,6 @@ import json
 app = Flask(__name__)
 code = open("key.txt", "r")
 app.secret_key = code.readlines()[0]
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///cippedb.db"
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-db = SQLAlchemy(app)
-
-engine = create_engine("sqlite:///cippedb.db")
-Session = sessionmaker(bind=engine)
-session = Session()
-
-Base = automap_base()
-Base.prepare(engine, reflect=True)
-Recipie = Base.classes.recipies
-ingredient = Base.classes.ingredients
 
 
 @app.route("/")
@@ -40,57 +27,83 @@ def get_recipies():
     if request.method == "POST":
         data = request.get_json()
         try:
-            new_recipie = Recipie(food_name = data["name"], description = data["description"], top_image = data["top image"], bottom_image = data["bottom image"])
-            db.session.add(new_recipie)
-            db.session.commit()
+            recipie = Recipie(food_name = data["name"], description = data["description"], top_image = data["top image"], bottom_image = data["bottom image"])
+            recipie.save()
             return jsonify({"status": "success", "data": data}), 201
         except:
-            db.session.rollback()
             return jsonify({"status": "error", "error": {"Important keys(in this order)": ["name", "description", "top image", "bottom image"]}}), 404
-        finally:
-            db.session.close() 
-    recipe = db.Table("recipies", db.metadata, autoload=True, autoload_with=engine)
-    all_recipe = db.session.query("food_name from {}".format(recipe)).all()
-    return jsonify({"status": "success", "data": all_recipe})
+    query = Recipie.select().dicts()
+    all_recipies = []
+    for item in query:
+        all_recipies.append(item)
+    return jsonify({"status": "success", "data": all_recipies})
 
 
 @app.route("/recipies/<name>", methods=["GET"])
 def get_recipie(name):
-    cippe_db = db.Table("recipies", db.metadata, autoload=True, autoload_with=db.engine)
-    recipies = db.session.query(
-        "food_name, description, top_image, bottom_image FROM recipies WHERE food_name=? ORDER BY food_name ASC LIMIT 1", 
-        (name, ))
-    return jsonify({"status": "success", "data": recipies.all()})
+    query = Recipie.select().where(Recipie.food_name == name).tuples()
+    one_recipie = []
+    for item in query:
+        one_recipie.append(item)
+    return jsonify({"status": "success", "data": one_recipie})
+
+
+@app.route("/recipies/<name>/<idnumber>", methods=["PUT", "DELETE"])
+def update_recipie(name, idnumber):
+    if request.method == "PUT":
+        data = request.get_json()
+        update_data = Recipie.update(food_name = data["name"], description = data["description"], top_image = data["top image"], bottom_image = data["bottom image"].where(Recipie.id == idnumber))
+        update_data.execute()
+        query = Recipie.select().where(Recipie.food_name == name).tuples()
+        updated_recipie = []
+        for item in query:
+            updated_recipie.append(item)
+        return jsonify({"status": "success", "data": updated_recipie})
+    elif request.method == "DELETE":
+        recipie = Recipie.get(Recipie.id == idnumber)
+        recipie.delete_instance()
+        return Recipie.get_or_none(Recipie.id == idnumber)
 
 
 @app.route("/recipies/<name>/<act>", methods=["GET", "POST"])
 def get_act(name, act):
-    cippe_db = connect_db()
-    cursor = cippe_db.cursor()
-    key = cursor.execute("SELECT id FROM recipies WHERE food_name=?", (name,))
-    key_id = key.fetchone()[0]
+    key = Recipie.get(Recipie.food_name == name).id
+    # print(key)
     if act == "ingredients":
         if request.method == "POST":
             data = request.get_json()
             try:
-                get_ingredients(data, key_id)
+                get_ingredients(data, key)
             except:
-                cippe_db.rollback()
                 return jsonify({"status": "error", "error": {"Keys(in this order)": ["category(optional)", "name(important)", "quantity(important)", "type(optional)", "requirement(optional)", "size(optional)"]}}), 404
-        step_ingre = cippe_db.execute(
-            "SELECT category, name, quantity, type, requirement, size FROM ingredients WHERE food_id=? ORDER BY name",
-            (key_id, ))
+        query = Ingredient.select().where(Ingredient.food_id == key).dicts()
+        step_ingre = []
+        for item in query:
+            step_ingre.append(item)
     elif act == "steps":
         if request.method == "POST":
             data = request.get_json()
+            print(data)
             try:
-                get_steps(data, key_id)
+                get_steps(data, key)
             except:
-                cippe_db.rollback()
+                print(Error)
                 return jsonify({"status": "error", "error": {"Keys(in this order)": ["category(optional)", "name(optional)", "action(important)", "image(optional)"]}}), 404
-        step_ingre = cippe_db.execute(
-            "SELECT category, name, action, image FROM steps WHERE food_id=? ORDER BY action",(key_id, ))
-    return jsonify({"status": "success", f"{act}": step_ingre.fetchall()})
+        query = Step.select().where(Step.food_id == key).dicts()
+        step_ingre = []
+        for item in query:
+            step_ingre.append(item)
+    else:
+        return jsonify({"status": "error", "Key Error": "Act available in database: steps and ingredients"})
+    return jsonify({"status": "success", f"{act}": step_ingre})
+
+
+@app.route("/recipies/<name>/<act>/<idnumber>", methods=["PUT", "DELETE"])
+def update_act(name, act, idnumber):
+    if request.method == "PUT":
+        pass
+    elif request.method == "DELETE":
+        pass
 
 
 if __name__ == "__main__":
