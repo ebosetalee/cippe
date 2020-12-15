@@ -48,13 +48,13 @@ def get_recipie(name):
     return jsonify({"status": "success", "data": one_recipie})
 
 
-@app.route("/recipies/<name>/<idnumber>", methods=["PUT", "DELETE"])
-def update_recipie(name, idnumber):
+@app.route("/recipies/<idnumber>", methods=["PUT", "DELETE"])
+def update_recipie(idnumber):
     if request.method == "PUT":
         data = request.get_json()
         update_data = Recipie.update(food_name = data["name"], description = data["description"], top_image = data["top image"], bottom_image = data["bottom image"].where(Recipie.id == idnumber))
         update_data.execute()
-        query = Recipie.select().where(Recipie.food_name == name).tuples()
+        query = Recipie.select().where(Recipie.id == idnumber).tuples()
         updated_recipie = []
         for item in query:
             updated_recipie.append(item)
@@ -68,7 +68,6 @@ def update_recipie(name, idnumber):
 @app.route("/recipies/<name>/<act>", methods=["GET", "POST"])
 def get_act(name, act):
     key = Recipie.get(Recipie.food_name == name).id
-    # print(key)
     if act == "ingredients":
         if request.method == "POST":
             data = request.get_json()
@@ -83,7 +82,6 @@ def get_act(name, act):
     elif act == "steps":
         if request.method == "POST":
             data = request.get_json()
-            print(data)
             try:
                 get_steps(data, key)
             except:
@@ -98,12 +96,22 @@ def get_act(name, act):
     return jsonify({"status": "success", f"{act}": step_ingre})
 
 
-@app.route("/recipies/<name>/<act>/<idnumber>", methods=["PUT", "DELETE"])
-def update_act(name, act, idnumber):
+@app.route("/recipies/<act>/<idnumber>", methods=["PUT", "DELETE"])
+def update_act(act, idnumber):
     if request.method == "PUT":
-        pass
+        if act == "ingredients":
+            pass
+        elif act == "steps":
+            pass
+        else:
+            return jsonify({"status": "error", "Key Error": "Act available in database: steps and ingredients"})
     elif request.method == "DELETE":
-        pass
+        if act == "ingredients":
+            pass
+        elif act == "steps":
+            pass
+        else:
+            return jsonify({"status": "error", "Key Error": "Act available in database: steps and ingredients"})
 
 
 if __name__ == "__main__":
