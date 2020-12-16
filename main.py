@@ -114,23 +114,23 @@ def update_act(act, idnumber):
     if request.method == "PUT":
         data = request.get_json()
         if act == "ingredients":  
-        #     if not data.get("category"):
-        #         data["category"] = "null"
-        #     if not data.get("type"):
-        #         data["type"] = "null"
-        #     if not data.get("requirement"):
-        #         data["requirement"] = "null"
-        #     if not data.get("size"):
-        #         data["size"] = "null"
+            if not data.get("category"):
+                data["category"] = "null"
+            if not data.get("type"):
+                data["type"] = "null"
+            if not data.get("requirement"):
+                data["requirement"] = "null"
+            if not data.get("size"):
+                data["size"] = "null"
             Ingredient.update(category = data["category"], name = data["name"], quantity = data["quantity"], Type=data["type"], requirement = data["requirement"], size = data["size"].where(Ingredient.id == idnumber))
             return jsonify({"status": "success", "data": data}), 201
         elif act == "steps":
-            # if not data.get("category"):
-            #     data["category"] = "null"
-            # if not data.get("name"):
-            #     data["name"] = "null"
-            # if not data.get("image"):
-            #     data["image"] = "null"
+            if not data.get("category"):
+                data["category"] = "null"
+            if not data.get("name"):
+                data["name"] = "null"
+            if not data.get("image"):
+                data["image"] = "null"
             Step.update(category = data["category"], name = data["name"], action = data["action"], image = data["image"].where(Step.id == idnumber))
             return jsonify({"status": "success", "data": data}), 201
         else:
@@ -139,11 +139,11 @@ def update_act(act, idnumber):
         if act == "ingredients":
             ingredient = Ingredient.get(Ingredient.id == idnumber)
             ingredient.delete_instance()
-            return Ingredient.get_or_none(Ingredient.id == idnumber)
+            return jsonify({"status": "success", "data": (Ingredient.get_or_none(Ingredient.id == idnumber))}), 201 
         elif act == "steps":
             step = Step.get(Step.id == idnumber)
             step.delete_instance()
-            return Step.get_or_none(Step.id == idnumber)
+            return jsonify({"status": "success", "data": Step.get_or_none(Step.id == idnumber)}), 201
         else:
             return jsonify({"status": "error", "Key Error": "Act available in database: steps and ingredients"})
 
