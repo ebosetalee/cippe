@@ -1,7 +1,5 @@
-from flask import Flask, jsonify, send_file, request 
-from flask_sqlalchemy import SQLAlchemy
+from flask import Flask, jsonify, send_file, request
 from database import Recipie, Ingredient, Step
-from core import get_ingredients, get_steps
 from peewee import *
 import sqlite3
 import json
@@ -71,7 +69,6 @@ def get_act(name, act):
     if act == "ingredients":
         if request.method == "POST":
             data = request.get_json()
-            print(data)
             try:
                 if not data.get("category"):
                     data["category"] = "null"
@@ -102,7 +99,6 @@ def get_act(name, act):
                 Step.create(food_id = key, category = data["category"], name = data["name"], action = data["action"], image = data["image"])
                 return jsonify({"status": "success", "data": data}), 201
             except:
-                # print(err)
                 return jsonify({"status": "error", "error": {"Keys(in this order)": ["category(optional)", "name(optional)", "action(important)", "image(optional)"]}}), 404
         query = Step.select().where(Step.food_id == key).dicts()
         step_ingre = []
@@ -116,17 +112,38 @@ def get_act(name, act):
 @app.route("/recipies/<act>/<idnumber>", methods=["PUT", "DELETE"])
 def update_act(act, idnumber):
     if request.method == "PUT":
-        if act == "ingredients":
-            pass
+        data = request.get_json()
+        if act == "ingredients":  
+        #     if not data.get("category"):
+        #         data["category"] = "null"
+        #     if not data.get("type"):
+        #         data["type"] = "null"
+        #     if not data.get("requirement"):
+        #         data["requirement"] = "null"
+        #     if not data.get("size"):
+        #         data["size"] = "null"
+            Ingredient.update(category = data["category"], name = data["name"], quantity = data["quantity"], Type=data["type"], requirement = data["requirement"], size = data["size"].where(Ingredient.id == idnumber))
+            return jsonify({"status": "success", "data": data}), 201
         elif act == "steps":
-            pass
+            # if not data.get("category"):
+            #     data["category"] = "null"
+            # if not data.get("name"):
+            #     data["name"] = "null"
+            # if not data.get("image"):
+            #     data["image"] = "null"
+            Step.update(category = data["category"], name = data["name"], action = data["action"], image = data["image"].where(Step.id == idnumber))
+            return jsonify({"status": "success", "data": data}), 201
         else:
             return jsonify({"status": "error", "Key Error": "Act available in database: steps and ingredients"})
     elif request.method == "DELETE":
         if act == "ingredients":
-            pass
+            ingredient = Ingredient.get(Ingredient.id == idnumber)
+            ingredient.delete_instance()
+            return Ingredient.get_or_none(Ingredient.id == idnumber)
         elif act == "steps":
-            pass
+            step = Step.get(Step.id == idnumber)
+            step.delete_instance()
+            return Step.get_or_none(Step.id == idnumber)
         else:
             return jsonify({"status": "error", "Key Error": "Act available in database: steps and ingredients"})
 
