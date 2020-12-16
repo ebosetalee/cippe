@@ -71,8 +71,18 @@ def get_act(name, act):
     if act == "ingredients":
         if request.method == "POST":
             data = request.get_json()
+            print(data)
             try:
-                get_ingredients(data, key)
+                if not data.get("category"):
+                    data["category"] = "null"
+                if not data.get("type"):
+                    data["type"] = "null"
+                if not data.get("requirement"):
+                    data["requirement"] = "null"
+                if not data.get("size"):
+                    data["size"] = "null"
+                Ingredient.create(food_id = key, category = data["category"], name = data["name"], quantity = data["quantity"], Type=data["type"], requirement = data["requirement"], size = data["size"])
+                return jsonify({"status": "success", "data": data}), 201
             except:
                 return jsonify({"status": "error", "error": {"Keys(in this order)": ["category(optional)", "name(important)", "quantity(important)", "type(optional)", "requirement(optional)", "size(optional)"]}}), 404
         query = Ingredient.select().where(Ingredient.food_id == key).dicts()
@@ -83,9 +93,16 @@ def get_act(name, act):
         if request.method == "POST":
             data = request.get_json()
             try:
-                get_steps(data, key)
+                if not data.get("category"):
+                    data["category"] = "null"
+                if not data.get("name"):
+                    data["name"] = "null"
+                if not data.get("image"):
+                    data["image"] = "null"
+                Step.create(food_id = key, category = data["category"], name = data["name"], action = data["action"], image = data["image"])
+                return jsonify({"status": "success", "data": data}), 201
             except:
-                print(Error)
+                # print(err)
                 return jsonify({"status": "error", "error": {"Keys(in this order)": ["category(optional)", "name(optional)", "action(important)", "image(optional)"]}}), 404
         query = Step.select().where(Step.food_id == key).dicts()
         step_ingre = []

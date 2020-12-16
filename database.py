@@ -21,6 +21,7 @@ class Ingredient(BaseModel):
     id = AutoField()
     food_id = ForeignKeyField(Recipie, backref="ingredients")
     category = TextField()
+    name = TextField()
     quantity = TextField()
     Type = TextField()
     requirement = TextField()
