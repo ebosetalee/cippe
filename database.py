@@ -23,8 +23,9 @@ class Ingredient(BaseModel):
     category = TextField()
     name = TextField()
     quantity = TextField()
-    Type = TextField()
+    ingredient_type = TextField()
     requirement = TextField()
+    size = TextField()
     class Meta:
         table_name = "ingredients"
 

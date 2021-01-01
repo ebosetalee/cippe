@@ -19,7 +19,7 @@ def create_table():
 
     db.execute(
         "CREATE TABLE IF NOT EXISTS ingredients (id INTEGER PRIMARY KEY AUTOINCREMENT, food_id INTEGER NOT NULL, "
-        "category TEXT, name TEXT, quantity TEXT, type TEXT, requirement TEXT, size TEXT, FOREIGN KEY (food_id) "
+        "category TEXT, name TEXT, quantity TEXT, ingredient_type TEXT, requirement TEXT, size TEXT, FOREIGN KEY (food_id) "
         "REFERENCES recipies (id))")
 
     db.execute(
@@ -49,15 +49,15 @@ def get_ingredients(food, count):
                         quantity = str(item["quantity"])
                 # else:
                 #     quantity = ""
-                if item.get("type"):
-                    if type(item["type"]) is list:
+                if item.get("ingredient_type"):
+                    if type(item["ingredient_type"]) is list:
                         types = ""
-                        for char in item["type"]:
+                        for char in item["ingredient_type"]:
                             types += (str(char).strip("{][}'"))
                         types = types.replace(":", " = ")
                         types = types.replace("'", "")
                     else:
-                        types = item["type"]
+                        types = item["ingredient_type"]
                 else:
                     types = ""
                 if item.get("requirement"):
@@ -69,7 +69,7 @@ def get_ingredients(food, count):
                 else:
                     size = ""
                 db.execute(
-                    "INSERT INTO ingredients(food_id, name, quantity, type, requirement, size) VALUES('{0}', '{1}', "
+                    "INSERT INTO ingredients(food_id, name, quantity, ingredient_type, requirement, size) VALUES('{0}', '{1}', "
                     "'{2}', {3}, '{4}', '{5}') "
                         .format(count, named, quantity, quote_identifier(types), requirement, size))
 
@@ -83,8 +83,8 @@ def get_ingredients(food, count):
                                     quantity = names["quantity"]
                                 # else:
                                 #     quantity = ""
-                                if names.get("type"):
-                                    types = names["type"]
+                                if names.get("ingredient_type"):
+                                    types = names["ingredient_type"]
                                 else:
                                     types = ""
                                 if names.get("requirement"):
